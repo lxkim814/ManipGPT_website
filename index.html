@@ -178,25 +178,24 @@
   <div class="container is-max-desktop">
     <div class="columns is-centered">
       <div class="column is-three-quarters">
-        <h2 class="title is-3 has-text-centered">Overview</h2>
+        <h2 class="title is-3 has-text-centered">System Pipeline</h2>
         <div class="content has-text-justified">
           <p>
-            Our method processes an RGB image with a visual prompt to generate an affordance mask, which determines the contact point and manipulation direction.
+            Our method involves fine-tuning a vision transformer on part-level affordance masks, integrating it with an impedance controller for real-world manipulation. Below is the system pipeline of our approach.
           </p>
-          <figure>
-            <img src="./static/images/teaser3.png" alt="Overview" style="max-width: 150%; width: 150%; height: auto;">
-<!--             <figcaption class="has-text-centered">Figure 1. ManipGPT pipeline: from image input to part-level affordance to control execution.</figcaption> -->
+          <figure class="has-text-centered">
+            <img
+              src="./static/images/pipeline.png"
+              alt="System Pipeline"
+              style="display: inline-block; max-width: 100%; height: auto;"
+            >
           </figure>
-          <br>
-<!--           <figure>
-            <img src="./static/images/Figures_result.pdf" alt="Affordance Segmentation Examples">
-            <figcaption class="has-text-centered">Figure 2. Result of ManipGPT segmentation</figcaption>
-          </figure> -->
         </div>
       </div>
     </div>
   </div>
 </section>
+
 
   
   
