@@ -201,29 +201,43 @@
   
 <!-- Custom Figures and Text Section -->
 <section class="section">
-  <h2 class="title is-3 has-text-centered">System Pipeline</h2>
-  <div class="content has-text-centered" style="padding: 0 2rem;">
-    <p class="has-text-justified" style="max-width: 1000px; margin: 0 auto;">
-      Our method involves fine-tuning a vision transformer on part-level affordance masks, integrating it with an impedance controller for real-world manipulation. Below is the system pipeline of our approach.
-    </p>
-    <figure class="has-text-centered" style="margin-top: 2rem;">
-      <img
-        src="./static/images/pipeline.png"
-        alt="System Pipeline"
-        style="width: 100%; height: auto; max-width: 1800px; margin: 0 auto;"
-      >
-    </figure>
+  <div class="container is-widescreen">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <h2 class="title is-3 has-text-centered">System Pipeline</h2>
+        <div class="content has-text-justified">
+          <p>
+            Our method involves fine-tuning a vision transformer on part-level affordance masks, integrating it with an impedance controller for real-world manipulation. Below is the system pipeline of our approach.
+          </p>
+          <figure class="has-text-centered">
+            <img
+              src="./static/images/pipeline.png"
+              alt="System Pipeline"
+              style="max-width: 100%; height: auto;"
+            >
+          </figure>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
 
 
+  
+<!-- Title OUTSIDE the grey hero box -->
+<section class="section">
+  <div class="container has-text-centered">
+    <h2 class="title is-3">Experiment Videos</h2>
+  </div>
+</section>
+
 
 <section class="hero is-light is-small">
   <div class="hero-body">
-    <div class="has-text-centered">
+<!--     <div class="has-text-centered">
       <h2 class="title is-3">Experiment Videos</h2>
-    </div>
+    </div> -->
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-box">
@@ -283,8 +297,8 @@
 <footer class="footer">
   <div class="container">
     <div class="columns is-centered">
-      <div class="column is-8 has-text-centered">
-        <div class="content">
+      <div class="column is-full">
+        <div class="content has-text-centered">
           Website template borrowed from 
           <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>
         </div>
@@ -292,6 +306,7 @@
     </div>
   </div>
 </footer>
+
 
 
 </body>
